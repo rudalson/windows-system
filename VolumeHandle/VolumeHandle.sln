@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vhd_Sample", "..\..\repo\win32-system\vhd_sample\Vhd_Sample.vcxproj", "{7CD39BA6-7072-4223-8749-4956F19B4F8B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vhd_Sample", "vhd_sample\Vhd_Sample.vcxproj", "{7CD39BA6-7072-4223-8749-4956F19B4F8B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DM00_ControlCodes", "..\..\repo\win32-system\ControlCodes\ControlCodes.vcxproj", "{BC4D4DF6-6454-4EC3-8441-547E04BC205C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DM00_ControlCodes", "ControlCodes\ControlCodes.vcxproj", "{BC4D4DF6-6454-4EC3-8441-547E04BC205C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VM02_CreatingMountedFolder", "..\..\repo\win32-system\CreatingMountedFolder\CreatingMountedFolder.vcxproj", "{D0DEB4E4-CA79-402B-96D7-65237B0958C7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VM02_CreatingMountedFolder", "CreatingMountedFolder\CreatingMountedFolder.vcxproj", "{D0DEB4E4-CA79-402B-96D7-65237B0958C7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VM04_DeletingMountedFolder", "..\..\repo\win32-system\DeletingMountedFolder\DeletingMountedFolder.vcxproj", "{1194BD91-36DA-42D2-8702-E352D35DFDF6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VM04_DeletingMountedFolder", "DeletingMountedFolder\DeletingMountedFolder.vcxproj", "{1194BD91-36DA-42D2-8702-E352D35DFDF6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VM00_DisplayingVolumePaths", "..\..\repo\win32-system\DisplayingVolumePaths\DisplayingVolumePaths.vcxproj", "{EDC9F616-C5BC-4D11-BCB1-B99FA0B6497E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VM00_DisplayingVolumePaths", "DisplayingVolumePaths\DisplayingVolumePaths.vcxproj", "{EDC9F616-C5BC-4D11-BCB1-B99FA0B6497E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VM01_EditingDriveLetterAssignments", "..\..\repo\win32-system\EditingDriveLetterAssignments\EditingDriveLetterAssignments.vcxproj", "{209C80EE-F997-466C-A258-37F8EA867106}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VM01_EditingDriveLetterAssignments", "EditingDriveLetterAssignments\EditingDriveLetterAssignments.vcxproj", "{209C80EE-F997-466C-A258-37F8EA867106}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VM03_EnumeratingVolumeGUIDPaths", "..\..\repo\win32-system\EnumeratingVolumeGUIDPaths\EnumeratingVolumeGUIDPaths.vcxproj", "{73D3274A-ED48-4BB3-AAA0-00175CA65C87}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VM03_EnumeratingVolumeGUIDPaths", "EnumeratingVolumeGUIDPaths\EnumeratingVolumeGUIDPaths.vcxproj", "{73D3274A-ED48-4BB3-AAA0-00175CA65C87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
