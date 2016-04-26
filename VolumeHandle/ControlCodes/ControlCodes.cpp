@@ -226,7 +226,7 @@ int _tmain(int argc, _TCHAR* argv[])
 		_tprintf(TEXT("GetNtfsVolumeData failed. Error %ld.\n"), GetLastError());
 	}
 
-	UINT32 BitmapSize = sizeof(VOLUME_BITMAP_BUFFER) + 4096 * 512;
+	UINT32 BitmapSize = sizeof(VOLUME_BITMAP_BUFFER) + UINT32(nvdb.NumberSectors.QuadPart + 7) / 8;
 	VOLUME_BITMAP_BUFFER * pvbb = (VOLUME_BITMAP_BUFFER *)malloc(BitmapSize);
 	bResult = GetVolumeBitmap(argv[1], pvbb, BitmapSize);
 	if (bResult)
