@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VM01_EditingDriveLetterAssi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VM03_EnumeratingVolumeGUIDPaths", "EnumeratingVolumeGUIDPaths\EnumeratingVolumeGUIDPaths.vcxproj", "{73D3274A-ED48-4BB3-AAA0-00175CA65C87}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IOCTL_MOUNTMGR_QUERY_POINTS", "IOCTL_MOUNTMGR_QUERY_POINTS\IOCTL_MOUNTMGR_QUERY_POINTS.vcxproj", "{64590B97-2187-414B-A6E1-32D516C0B06A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -51,6 +53,10 @@ Global
 		{73D3274A-ED48-4BB3-AAA0-00175CA65C87}.Debug|Win32.Build.0 = Debug|Win32
 		{73D3274A-ED48-4BB3-AAA0-00175CA65C87}.Release|Win32.ActiveCfg = Release|Win32
 		{73D3274A-ED48-4BB3-AAA0-00175CA65C87}.Release|Win32.Build.0 = Release|Win32
+		{64590B97-2187-414B-A6E1-32D516C0B06A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{64590B97-2187-414B-A6E1-32D516C0B06A}.Debug|Win32.Build.0 = Debug|Win32
+		{64590B97-2187-414B-A6E1-32D516C0B06A}.Release|Win32.ActiveCfg = Release|Win32
+		{64590B97-2187-414B-A6E1-32D516C0B06A}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
