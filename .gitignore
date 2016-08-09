@@ -12,5 +12,5 @@ build/drbd/drbd.v12.suo
 *Release/
 *Debug/
 *ipch/
-/Algorithms/Algorithms.VC.db
+*.db
 *.opendb
